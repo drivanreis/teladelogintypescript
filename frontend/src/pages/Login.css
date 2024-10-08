@@ -1,12 +1,40 @@
 /* src/pages/Login.css */
 
-.login-container {
+#login-container {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centralizar itens */
     justify-content: center; /* Centralizar itens verticalmente */
     height: 100vh; /* Ocupa a altura total da janela */
-    background-color: #403e96; /* Cor de fundo da página de login */
-    max-width: min-content;
-  }
-  
+    background: linear-gradient(to bottom, #1085fa,#4e688b); /* Degradê em azul */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    color: red; /* Cor do texto de erro */
+    margin-top: 0.5em; /* Espaçamento superior */
+    font-size: 0.9em; /* Tamanho da fonte */
+}
+
+.links {
+    margin-top: 15px; /* Espaço acima dos links */
+}
+
+.link {
+    color: #403e96; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.link:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
