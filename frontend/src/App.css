@@ -1,0 +1,29 @@
+/* src/App.css */
+
+/* CSS Reset */
+* {
+    margin: 0; /* Remove margem */
+    padding: 0; /* Remove preenchimento */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos nas dimensões dos elementos */
+  }
+  
+  html, body {
+    height: 100%; /* Garante que o body ocupe a altura total da janela */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #ffffff; /* Cor de fundo padrão */
+  }
+  
+  /* Adicionando alguns estilos globais */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em; /* Espaçamento inferior entre os cabeçalhos */
+  }
+  
+  p {
+    margin-bottom: 1em; /* Espaçamento inferior entre os parágrafos */
+  }
+  
+  /* Define um estilo básico para os botões */
+  button {
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+  }
+  

@@ -1,0 +1,10 @@
+/* src/components/MainContent.css */
+
+.main-content {
+    background-color: #f2f2f2; /* Cor de fundo do conteúdo */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px; /* Margem */
+    min-height: 200px; /* Altura mínima */
+  }
+  

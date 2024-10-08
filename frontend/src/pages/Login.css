@@ -1,0 +1,12 @@
+/* src/pages/Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar itens */
+    justify-content: center; /* Centralizar itens verticalmente */
+    height: 100vh; /* Ocupa a altura total da janela */
+    background-color: #403e96; /* Cor de fundo da página de login */
+    max-width: min-content;
+  }
+  
